@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is dictionary app.
 
-Things you may want to cover:
+### Setup
+- bundle install
+- rails db:migrate
+- rails s
 
-* Ruby version
+Visit http://localhost:3000 on a browser window.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Running tests
+- rails test test/controllers/dictionary_controller_test.rb
